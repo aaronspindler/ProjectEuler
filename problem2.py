@@ -12,5 +12,3 @@ def fib_sum_even(limit):
             sum += current
 
     return sum
-
-print(fib_sum_even(4000000))

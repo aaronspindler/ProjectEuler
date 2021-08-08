@@ -13,5 +13,3 @@ def largest_prime_factor(input):
             break
 
     return max(factors)
-
-print(largest_prime_factor(600851475143))

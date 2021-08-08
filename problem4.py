@@ -14,5 +14,3 @@ def largest_palindrome_num(digits):
                     palindromes.append(int(product))
 
     return max(palindromes)
-
-print(largest_palindrome_num(3))

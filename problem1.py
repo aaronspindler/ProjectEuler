@@ -5,5 +5,3 @@ def sum_multi_3_and_5(input):
             continue
         sum += num
     return sum
-
-print(sum_multi_3_and_5(1000))

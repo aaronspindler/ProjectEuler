@@ -12,5 +12,3 @@ def smallest_divisable_by_range(max):
     while not div_checker(num, max):
         num += 1
     return num
-
-print(smallest_divisable_by_range(20))
