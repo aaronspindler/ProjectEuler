@@ -7,6 +7,7 @@ from problem4 import largest_palindrome_num
 from problem5 import smallest_divisable_by_range
 from problem6 import sum_square_difference
 from problem7 import n_prime
+from problem8 import largest_product
 
 
 class Test(TestCase):
@@ -30,3 +31,6 @@ class Test(TestCase):
 
     def test_n_prime_example(self):
         self.assertEqual(13, n_prime(6))
+
+    def test_largest_product_example(self):
+        self.assertEqual(5832, largest_product(4))
