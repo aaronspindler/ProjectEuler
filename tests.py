@@ -1,6 +1,7 @@
 from unittest import TestCase
 
 from problem1 import sum_multi_3_and_5
+from problem10 import summation_of_primes
 from problem2 import fib_sum_even
 from problem3 import largest_prime_factor
 from problem4 import largest_palindrome_num
@@ -34,3 +35,6 @@ class Test(TestCase):
 
     def test_largest_product_example(self):
         self.assertEqual(5832, largest_product(4))
+
+    def test_summation_of_primes_example(self):
+        self.assertEqual(17, summation_of_primes(10))
